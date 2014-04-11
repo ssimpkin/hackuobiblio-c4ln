@@ -5,9 +5,8 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 @font-face {
+  font-family: 'Varela Round', sans-serif;
   font-family: 'League Gothic';
-  src: url("../../lib/font/league_gothic-webfont.eot");
-  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -15,26 +14,27 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #1c1e20;
-  background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
-  background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background-color: #2b2b2b; }
+  background: #fdf6e3;
+  background: -moz-radial-gradient(center, circle cover, #fdf6e3 0%, #fdf6e3 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fdf6e3), color-stop(100%, #fdf6e3));
+  background: -webkit-radial-gradient(center, circle cover, #fdf6e3 0%, #fdf6e3 100%);
+  background: -o-radial-gradient(center, circle cover, #fdf6e3 0%, #fdf6e3 100%);
+  background: -ms-radial-gradient(center, circle cover, #fdf6e3 0%, #fdf6e3 100%);
+  background: radial-gradient(center, circle cover, #fdf6e3 0%, #fdf6e3 100%);
+  background-color: #fdf6e3; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #586e75; }
 
 ::selection {
   color: white;
   background: #ff5e99;
   text-shadow: none; }
+
 
 /*********************************************
  * HEADERS
@@ -46,15 +46,17 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
-  font-family: "League Gothic", Impact, sans-serif;
+  color: #657b83;
+  font-family: "Varela Round, Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
-.reveal h1 {
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+/* .reveal h1, .reveal h2 {
+*  color: #eeeeee;
+* text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+*/
+
 
 /*********************************************
  * LINKS
