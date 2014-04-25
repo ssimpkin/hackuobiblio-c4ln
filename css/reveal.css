@@ -57,7 +57,7 @@ body {
 }
 
 ::selection {
-	background: #FF5E99;
+	background: #268bd2;
 	color: #fff;
 	text-shadow: none;
 }
@@ -205,7 +205,7 @@ body {
 	}
 
 .reveal .slides section .fragment.highlight-current-red.current-fragment {
-	color: #ff2c2d
+	color: #ff2c2d;
 }
 .reveal .slides section .fragment.highlight-current-green.current-fragment {
 	color: #17ff2e;
