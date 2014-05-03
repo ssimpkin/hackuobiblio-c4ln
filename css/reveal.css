@@ -57,11 +57,19 @@ body {
 }
 
 ::selection {
+<<<<<<< HEAD
 	background: #FF5E99;
+=======
+	background: #268bd2;
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
 	color: #fff;
 	text-shadow: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
 /*********************************************
  * HEADERS
  *********************************************/
@@ -205,7 +213,11 @@ body {
 	}
 
 .reveal .slides section .fragment.highlight-current-red.current-fragment {
+<<<<<<< HEAD
 	color: #ff2c2d
+=======
+	color: #ff2c2d;
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
 }
 .reveal .slides section .fragment.highlight-current-green.current-fragment {
 	color: #17ff2e;
@@ -255,7 +267,11 @@ body {
 .reveal ol,
 .reveal ul {
 	display: inline-block;
+<<<<<<< HEAD
 
+=======
+	list-style-type: none;
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
 	text-align: left;
 	margin: 0 0 0 1em;
 }
@@ -265,6 +281,7 @@ body {
 }
 
 .reveal ul {
+<<<<<<< HEAD
 	list-style-type: disc;
 }
 
@@ -274,6 +291,17 @@ body {
 
 .reveal ul ul ul {
 	list-style-type: circle;
+=======
+	list-style-type: none;
+}
+
+.reveal ul ul {
+	list-style-type: none;
+}
+
+.reveal ul ul ul {
+	list-style-type: none;
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
 }
 
 .reveal ul ul,
@@ -297,12 +325,28 @@ body {
 .reveal blockquote {
 	display: block;
 	position: relative;
+<<<<<<< HEAD
 	width: 80%;
+=======
+<<<<<<< HEAD
+	width: 80%;
+=======
+	width: 70%;
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
+>>>>>>> gh-pages
 	margin: 5px auto;
 	padding: 5px;
 
 	font-style: italic;
+<<<<<<< HEAD
 	background: rgba(255, 255, 255, 0.25);
+=======
+<<<<<<< HEAD
+	background: rgba(255, 255, 255, 0.25);
+=======
+	background: rgba(255, 255, 255, 0.05);
+>>>>>>> a3baecf49c030b6c4f15f92746ee060b215edf98
+>>>>>>> gh-pages
 	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
 	.reveal blockquote p:first-child,
